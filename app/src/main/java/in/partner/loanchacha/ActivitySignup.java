@@ -150,7 +150,7 @@ public class ActivitySignup extends FragmentActivity {
 
             prefs = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
         }catch (Exception ex) {
-            Toast.makeText(ActivgiitySignup.this,ex.toString(),Toast.LENGTH_LONG).show();
+            Toast.makeText(ActivitySignup.this,ex.toString(),Toast.LENGTH_LONG).show();
         }
 
         switchUser.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
